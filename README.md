@@ -47,32 +47,25 @@ Echo "Terima kasih atas sesi yang diberikan" Sleep 5 clear
 
 4. Bash script
 a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing:
-
 p1.sh
-
 #!/bin/bash echo "Program p1" ls -l
-
 p2.sh
-
 #!/bin/bash echo "Program p2" who
-
 p3.sh
-
 #!/bin/bash echo "Program p3" ps x
+<img width="1280" height="800" alt="VirtualBox_Ubuntu_13_10_2026_09_54_56" src="https://github.com/user-attachments/assets/4babc837-205e-44cf-be32-7f39f962e796" />
+
 
 b. Jalankan script tersebut sebagai berikut:
-
 $ ./p1.sh ; ./p3.sh ; ./p2.sh
-
 $ ./p1.sh &
-
 $ ./p1.sh & ./p2.sh & ./p3.sh &
+<img width="1280" height="800" alt="t5 4 b" src="https://github.com/user-attachments/assets/667b8958-42ca-44ea-a5fa-68679ebecb07" />
 
-Jobs
+
+5.Jobs
 a. Buat shell-script yang melakukan loop dengan nama nyawaktu.sh, setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil.
-
 #!/bin/bash
-
 while [ true ] do date >> hasil sleep 10 done
 
 b. Jalankan sebagai background, kemudian jalankan satu program (utilitas find) di background sebagai berikut:
