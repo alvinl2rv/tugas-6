@@ -74,24 +74,26 @@ while [ true ] do date >> hasil sleep 10 done
 b. Jalankan sebagai background, kemudian jalankan satu program (utilitas find) di background sebagai berikut:
 
 $ jobs
-
 $ find . -print > files 2>/dev/null &
-
 $ jobs
+<img width="1280" height="800" alt="VirtualBox_Ubuntu_13_10_2026_10_06_10" src="https://github.com/user-attachments/assets/f93ebac5-6ec2-4e41-9460-aca7d9c23075" />
+
 
 c. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke background.
 
 $ fg %1
-
 $ bg
+<img width="1280" height="800" alt="VirtualBox_Ubuntu_13_10_2026_10_09_13" src="https://github.com/user-attachments/assets/2d0bd9f9-16c5-4027-a5eb-a978af685940" />
+
 
 d. Stop program background dengan utilitas kill
 
 $ ps x
-
 $ kill [Nomor PID]
+<img width="1280" height="800" alt="VirtualBox_Ubuntu_13_10_2026_10_13_46" src="https://github.com/user-attachments/assets/b3c54f26-5b18-4022-85d7-1198cf4a48b2" />
 
-History
+
+6. History
 a. Ganti nilai HISTSIZE dari 1000 menjadi 20
 
 $ HISTSIZE=20
