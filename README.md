@@ -1,24 +1,24 @@
 # tugas-6
 VI. Tugas
 
-Eksekusi seluruh profile yang ada:
+1. Eksekusi seluruh profile yang ada:
 a. Edit file /etc/profile dan tampilkan pesan sebagai berikut:
-
 echo "Profile dari /etc/profile"
 
+
 b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu:
-
 /home/stD02001/.bash_profile /home/stD02001/.bash_login /home/mahasiswa/.profile /home/mahasiswa/.bashrc
-
 Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap file tersebut, cantumkan instruksi echo, misalnya pada /home/mahasiswa/.bash_profile:
-
 echo "Profile dari .bash_profile"
-
 Lakukan hal yang sama untuk file lainnya, sesuaikan tampilan dengan nama file yang bersangkutan.
+<img width="1280" height="800" alt="t5 1 b" src="https://github.com/user-attachments/assets/31db9ab5-3d65-428a-b111-cb5870c762e1" />
+
 
 c. Jalankan instruksi substitute user, kemudian keluar dengan perintah exit sebagai berikut:
 
-$ su mahasiswa $ exit
+2.$ su mahasiswa $ exit
+<img width="1280" height="800" alt="t5 2" src="https://github.com/user-attachments/assets/f5de39f3-1d8a-4273-9f74-0e30ed2cc9b2" />
+
 
 kemudian gunakan opsi – sebagai berikut:
 
@@ -35,12 +35,15 @@ b. Eksperimen hasil PS1:
 
 $ PS1="! > " 69 > PS1="\d > " Mon Sep 23 > PS1="\t > " 10:10:20 > PS1="Saya=\u > " Saya=mahasiswa > PS1="\w > " ~ > PS1=\h >"
 
-Logout
-Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout.
+<img width="1280" height="800" alt="t5 2" src="https://github.com/user-attachments/assets/5885a734-47b2-42ab-b214-0b00c35c8a3c" />
+
+3.Logout Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout.
 
 Echo "Terima kasih atas sesi yang diberikan" Sleep 5 clear
+<img width="1280" height="800" alt="t5 3" src="https://github.com/user-attachments/assets/47722f73-ec87-4bc9-9abc-0ba9fe578b9d" />
 
-Bash script
+
+4. Bash script
 a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing:
 
 p1.sh
