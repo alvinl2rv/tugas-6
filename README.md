@@ -4,6 +4,8 @@ VI. Tugas
 1. Eksekusi seluruh profile yang ada:
 a. Edit file /etc/profile dan tampilkan pesan sebagai berikut:
 echo "Profile dari /etc/profile"
+<img width="1280" height="800" alt="t5 5 1 2" src="https://github.com/user-attachments/assets/c0168ad6-a117-4ef8-914e-144ef4dc23f1" />
+
 
 
 b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu:
