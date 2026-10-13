@@ -18,20 +18,20 @@ Lakukan hal yang sama untuk file lainnya, sesuaikan tampilan dengan nama file ya
 
 c. Jalankan instruksi substitute user, kemudian keluar dengan perintah exit sebagai berikut:
 
-2.$ su mahasiswa $ exit
-<img width="1280" height="800" alt="t5 2" src="https://github.com/user-attachments/assets/f5de39f3-1d8a-4273-9f74-0e30ed2cc9b2" />
-
-
+$ su mahasiswa $ exit
 kemudian gunakan opsi – sebagai berikut:
-
 $ su - mahasiswa $ exit
+<img width="1280" height="800" alt="VirtualBox_Ubuntu_13_10_2026_10_32_33" src="https://github.com/user-attachments/assets/102b0e2e-da4d-4d4e-bcf6-52bdc2206ca4" />
 
 Jelaskan perbedaan kedua utilitas tersebut.
+Perintah su mahasiswa digunakan untuk berpindah ke pengguna mahasiswa tanpa sepenuhnya memuat lingkungan login pengguna tersebut. Sementara itu, su - mahasiswa berpindah ke pengguna mahasiswa sekaligus memuat lingkungan login, seperti direktori home, variabel lingkungan, dan konfigurasi profile.
+Jika akun mahasiswa tidak tersedia, ganti dengan nama akun Ubuntu yang kamu gunakan.
 
-Prompt String (PS)
+2. Prompt String (PS)
 a. Edit file .bash_profile, ganti prompt PS1 dengan '>'. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh shell.
 
 PS1='> ' export PS1
+<img width="1280" height="800" alt="t5 2" src="https://github.com/user-attachments/assets/f5de39f3-1d8a-4273-9f74-0e30ed2cc9b2" />
 
 b. Eksperimen hasil PS1:
 
@@ -99,19 +99,29 @@ a. Ganti nilai HISTSIZE dari 1000 menjadi 20
 $ HISTSIZE=20
 
 $ h
+<img width="1280" height="800" alt="VirtualBox_Ubuntu_13_10_2026_10_17_36" src="https://github.com/user-attachments/assets/7f92a6a6-2464-4abf-ad9f-0820e4aeb94e" />
+
 
 b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir dilakukan
 
 $ !-5
+<img width="1280" height="800" alt="VirtualBox_Ubuntu_13_10_2026_10_18_49" src="https://github.com/user-attachments/assets/21604664-1978-4510-b2da-36cfd14b1ca4" />
+
 
 c. Ulangi instruksi yang terakhir. Gunakan juga ^P dan ^N untuk bernavigasi pada history buffer
 
 $ !!
+<img width="1280" height="800" alt="VirtualBox_Ubuntu_13_10_2026_10_20_18" src="https://github.com/user-attachments/assets/fe19050e-5641-4e4f-a25d-02ea8904955d" />
+
 
 d. Ulangi instruksi pada history buffer nomor 150
 
 $ !150
+<img width="1280" height="800" alt="VirtualBox_Ubuntu_13_10_2026_10_21_44" src="https://github.com/user-attachments/assets/3bb0543a-029e-4237-b990-7fb120030cf6" />
+
 
 e. Ulangi instruksi dengan prefix "ls"
 
 $ !ls
+<img width="1280" height="800" alt="VirtualBox_Ubuntu_13_10_2026_10_25_37" src="https://github.com/user-attachments/assets/5ba245b1-9aca-47d9-ac8c-ca5c9833dba6" />
+
