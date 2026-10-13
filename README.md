@@ -64,9 +64,12 @@ $ ./p1.sh & ./p2.sh & ./p3.sh &
 
 
 5.Jobs
+
 a. Buat shell-script yang melakukan loop dengan nama nyawaktu.sh, setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil.
 #!/bin/bash
 while [ true ] do date >> hasil sleep 10 done
+<img width="1280" height="800" alt="VirtualBox_Ubuntu_13_10_2026_10_03_50" src="https://github.com/user-attachments/assets/254ff30f-d70f-4944-a8be-8d55fc0bd9ed" />
+
 
 b. Jalankan sebagai background, kemudian jalankan satu program (utilitas find) di background sebagai berikut:
 
